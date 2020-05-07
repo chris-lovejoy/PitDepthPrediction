@@ -1,0 +1,30 @@
+{
+    "type_of_model": "RandomForestClassifier",
+    "parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "auto",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_impurity_split": null,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "n_estimators": 100,
+        "n_jobs": null,
+        "oob_score": false,
+        "random_state": null,
+        "verbose": 0,
+        "warm_start": false
+    },
+    "time_run": "09-04-2020_18-46-33",
+    "pickle_name": "RandomForestClassifier_09-04-2020_18-46-33",
+    "performance": {
+        "Accuracy": 0.9090909090909091,
+        "AUC": 0.8642857142857143
+    }
+}
