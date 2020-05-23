@@ -1,9 +1,17 @@
 # Sizing pits in heat exchanger tubes with eddy current measurements
-A project demonstrating the use of data science and machine learning models to make flaw predictions in heat exchanger tubes with a reasonable accuracy.
 
-1 of the 4 projects assigned to the participants of the VS2DS March 2020 program organized by Pivigo Ltd, UK. Client is Electic Power Research Institute, US (EPRI).
+
+## The project
+Heat exchangers, which are used in a wide range of industries, have an estimated global market of $16 billion. They operate under stress and are therefore prone to developing faults. Failures account for an estimated 0.25% loss of the entire GDP of industrialised nations.
+
+Existing methods are able to detect the presence of flaws but aren't able to reliably predict their depth. This makes decisions around replacing the heat exchanger tubes challenging; unnecessary taking tubes out of action reduces efficiency while not removing a faulty tube may lead to expensive damages.
+
+We set out to develop machine learning models that would reliably predict depth of flaws, to enable better decision-making regarding flaw depth prediciton.
+
+This project was designed by, and undertaken in collaboration with, the Electric Power Research Institute (EPRI).
 
 Team: Chris Lovejoy, Andrea Grafmueller, Chirag Garg, Theodore Hermann
+
 
 ## Table of contents
 * [General info](#general-info)
@@ -11,10 +19,12 @@ Team: Chris Lovejoy, Andrea Grafmueller, Chirag Garg, Theodore Hermann
 * [Setup](#setup)
 * [Usage](#usage)
 * [References](#references)
+
 ## General info
 ### Problem statement
 
 Heat exchanger tubes are commonly inspected with eddy current (EC) techniques. While detection of defects is not a challenge, characterization (that is, determining the depth of wall loss) is done based on a single parameter (amplitude or phase); this mono-parametric approach lacks accuracy and leads to tubes being unnecessarily removed from service. The main defect of interest here is microbiologically-influenced corrosion (MIC). Since this is not reproducible in manufactured tubes, we will start with inner diameter (ID) pits.
+
 
 ### Objectives
 
@@ -23,6 +33,12 @@ Primary goal is to develop machine learning models to estimate the depth of defe
 Secondary goals pertain to other interesting characterizations (such as shape classification, length and width characterization, etc) but to be only pursued if:
 1) They support the primary goal; or
 2) Primary goal has already been satisfactorily achieved
+
+
+### Outcome
+
+We tested our models on a hold-out test set, and the top performing models achieved an RMSE of approximately 7%.
+
 
 ## File-Structure
 ```bash
