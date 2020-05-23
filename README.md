@@ -104,5 +104,8 @@ The input data are separate .csv files, each corresponding to one defect, in fol
 The codebase is organized into custom-build functions located in the `src` directory and Jupyter notebooks in the `notebooks` directory. The notebooks show the results and rely on the functions from the `src` directory.
 
 
+Note: the data used to train our model is not available, and remains the intellectual property of the Electric Power Research Institute (EPRI).
+
+
 ## References
 [[1](https://www.nde-ed.org/EducationResources/CommunityCollege/EddyCurrents/cc_ec_index.htm)] Background info on eddy current measurements.
