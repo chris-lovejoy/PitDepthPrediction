@@ -8,7 +8,7 @@ Existing methods are able to detect the presence of flaws but aren't able to rel
 
 We set out to develop machine learning models that would reliably predict depth of flaws, to enable better decision-making regarding flaw depth prediciton.
 
-This project was designed by, and undertaken in collaboration with, the Electric Power Research Institute (EPRI).
+This project was designed by, sponsored by, and undertaken in collaboration with, the Electric Power Research Institute (EPRI).
 
 Team: Chris Lovejoy, Andrea Grafmueller, Chirag Garg, Theodore Hermann
 
