@@ -2,9 +2,9 @@
 
 
 ## The project
-Heat exchangers, which are used in a wide range of industries, have an estimated global market of $16 billion. They operate under stress and are therefore prone to developing faults. Failures account for an estimated 0.25% loss of the entire GDP of industrialised nations.
+Heat exchangers are systems to transfer heat for both heating or cooling. They are are used in a wide range of industries, including fridges, cars and power stations. They operate under stress and are therefore prone to developing faults, which can account for significant costs.
 
-Existing methods are able to detect the presence of flaws but aren't able to reliably predict their depth. This makes decisions around replacing the heat exchanger tubes challenging; unnecessary taking tubes out of action reduces efficiency while not removing a faulty tube may lead to expensive damages.
+One challenge is the characterisation of flaws from Microbial-Induced Corrosion (MIC). Existing methods are able to detect the presence of such flaws but aren't able to reliably predict their depth. Sizing incorrectly may lead to unnecessary removal from service, which affects efficiency, or leaving tubes in services that should be removed, which can lead to unexpected shutdowns.
 
 We set out to develop machine learning models that would reliably predict depth of flaws, to enable better decision-making regarding flaw depth prediciton.
 
@@ -28,7 +28,7 @@ Heat exchanger tubes are commonly inspected with eddy current (EC) techniques. W
 
 ### Objectives
 
-Primary goal is to develop machine learning models to estimate the depth of defects based on the EC waveforms that perform better than current industry practice. Estimates using current methods (non-ML) perform with a RMSE (root-mean-squared-error) of ~15% of the thickness.
+Primary goal is to develop machine learning models to estimate the depth of defects based on the EC waveforms that perform better than ~15% RMSE (root-mean-squared-error) of the real depth.
 
 Secondary goals pertain to other interesting characterizations (such as shape classification, length and width characterization, etc) but to be only pursued if:
 1) They support the primary goal; or
